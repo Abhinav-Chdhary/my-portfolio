@@ -1,4 +1,5 @@
 import React from "react";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 export default function Bio() {
   return (
@@ -14,22 +15,26 @@ export default function Bio() {
       >
         <div className="card-body">
           <h5 className="card-title">Abhinav Choudhary</h5>
-          <h6 className="card-subtitle mb-2 text-muted">
-            Computer Science Student
-          </h6>
+          <h6 className="card-subtitle mb-2 text-muted">CS Student</h6>
           <p className="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Hello & welcome to my portfolio website! Here, I proudly present my
+            collection of personal projects that I'm excited to share with you.
+            I sincerely hope you find them inspiring.
           </p>
-          {/* <FontAwesomeIcon icon="fa-brands fa-github" /> */}
+
           <a href="https://github.com/Abhinav-Chdhary" className="card-link">
-            github
+            <button type="button" class="btn btn-outline-dark rounded-circle">
+              <BsGithub />
+            </button>
           </a>
+
           <a
             href="https://www.linkedin.com/in/abhinavchdhary/"
             className="card-link"
           >
-            LinkedIn
+            <button type="button" class="btn btn-outline-primary">
+              <BsLinkedin />
+            </button>
           </a>
         </div>
       </div>

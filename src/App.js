@@ -10,6 +10,14 @@ function App() {
           <span className="fs-4">My Portfolio</span>
         </div>
       </header>
+      <figure className="text-center">
+        <blockquote className="blockquote">
+          <p>"Condensing fact from the vapor of nuance"</p>
+        </blockquote>
+        <figcaption className="blockquote-footer">
+          Juanita, <cite title="Source Title">Snow Crash</cite>
+        </figcaption>
+      </figure>
       <div className="container">
         <Bio />
       </div>
