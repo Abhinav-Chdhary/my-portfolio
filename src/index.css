@@ -1,19 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
-#diamond {
-  width: 0;
-  height: 0;
-  border: 50px solid transparent;
-  border-bottom-color: red;
-  position: relative;
-  top: -50px;
-}
-#diamond:after {
-  content: "";
-  position: absolute;
-  left: -50px;
-  top: 50px;
-  width: 0;
-  height: 0;
-  border: 50px solid transparent;
-  border-top-color: red;
+.dagger {
+  background: rgb(131, 58, 180);
+  background: radial-gradient(
+    circle,
+    rgba(131, 58, 180, 1) 10%,
+    rgba(255, 7, 1, 1) 60%,
+    rgba(252, 176, 69, 1) 100%
+  );
 }
