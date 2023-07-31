@@ -3,6 +3,7 @@ import Bio from "./Components/Bio";
 import TopBar from "./Components/TopBar";
 import Carousel from "./Components/Carousel";
 import Quote from "./Components/Quote";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <div>
         <Carousel />
       </div>
+      <Footer />
     </div>
   );
 }
