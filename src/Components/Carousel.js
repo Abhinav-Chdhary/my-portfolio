@@ -64,7 +64,11 @@ export default function Carousel() {
               </div>
             </div>
             <div className="carousel-item">
-              <img src="/Cdixon.png" className="d-block w-100" alt="..." />
+              <img
+                src="https://abhinav-chdhary.github.io/my-portfolio/Cdixon.PNG"
+                className="d-block w-100"
+                alt="..."
+              />
               <div className="carousel-caption d-none d-md-block text-dark">
                 <h3 style={{ "font-family": "'Permanent Marker', cursive" }}>
                   Personal blog web-app
