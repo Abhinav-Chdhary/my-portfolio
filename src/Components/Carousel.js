@@ -9,7 +9,8 @@ export default function Carousel() {
       >
         My Projects
       </div>
-      <div className="p-2 mb-4" id="myCarousel">
+
+      <div className="p-2 mb-4 fw-bold " id="myCarousel">
         <div
           id="carouselExampleCaptions"
           className="carousel slide carousel-fade"
@@ -39,42 +40,36 @@ export default function Carousel() {
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img
-                src="https://source.unsplash.com/e1-XD7an6oI"
-                className="d-block w-100"
-                alt="..."
-              />
+              <img src="/imm1.png" className="d-block w-100" alt="..." />
               <div className="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>
-                  Some representative placeholder content for the first slide.
-                </p>
+                <h3
+                  className="fw-bold"
+                  style={{ "font-family": "'Permanent Marker', cursive" }}
+                >
+                  Immuno Game
+                </h3>
+                <p>Made for "My first game jam 2023 (Winter)"</p>
               </div>
             </div>
             <div className="carousel-item">
-              <img
-                src="https://source.unsplash.com/4u9GJBXcbdM"
-                className="d-block w-100"
-                alt="..."
-              />
-              <div className="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>
-                  Some representative placeholder content for the second slide.
-                </p>
+              <img src="/fridayFoods.png" className="d-block w-100" alt="..." />
+              <div className="carousel-caption d-none d-md-block text-dark">
+                <h3
+                  className="text-success"
+                  style={{ "font-family": "'Permanent Marker', cursive" }}
+                >
+                  Friday Foods
+                </h3>
+                <p className="text-success bg-light ">A Food delivery app</p>
               </div>
             </div>
             <div className="carousel-item">
-              <img
-                src="https://source.unsplash.com/23UrE71EUp8"
-                className="d-block w-100"
-                alt="..."
-              />
-              <div className="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>
-                  Some representative placeholder content for the third slide.
-                </p>
+              <img src="/Cdixon.png" className="d-block w-100" alt="..." />
+              <div className="carousel-caption d-none d-md-block text-dark">
+                <h3 style={{ "font-family": "'Permanent Marker', cursive" }}>
+                  Personal blog web-app
+                </h3>
+                <p>A website to publish my writings.</p>
               </div>
             </div>
           </div>
