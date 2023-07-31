@@ -1,15 +1,19 @@
 import React from "react";
 import Bio from "./Components/Bio";
 import TopBar from "./Components/TopBar";
+import Carousel from "./Components/Carousel";
 
 function App() {
   return (
-    <div className="">
+    <div>
       <TopBar />
       <div className="container">
         <Bio />
+        <hr />
       </div>
-      <Bio />
+      <div>
+        <Carousel />
+      </div>
     </div>
   );
 }
