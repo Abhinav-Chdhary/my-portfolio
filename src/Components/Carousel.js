@@ -41,7 +41,7 @@ export default function Carousel() {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
-                src="https://abhinav-chdhary.github.io/my-portfolio/imm1.png"
+                src="%PUBLIC_URL%/imm1.png"
                 className="d-block w-100"
                 alt="..."
               />
@@ -57,7 +57,7 @@ export default function Carousel() {
             </div>
             <div className="carousel-item">
               <img
-                src="https://abhinav-chdhary.github.io/my-portfolio/fridayFoods.PNG"
+                src="%PUBLIC_URL%/fridayFoods.PNG"
                 className="d-block w-100"
                 alt="..."
               />
@@ -73,7 +73,7 @@ export default function Carousel() {
             </div>
             <div className="carousel-item">
               <img
-                src="https://abhinav-chdhary.github.io/my-portfolio/Cdixon.PNG"
+                src="%PUBLIC_URL%/Cdixon.PNG"
                 className="d-block w-100"
                 alt="..."
               />
