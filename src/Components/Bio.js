@@ -14,7 +14,7 @@ export default function Bio() {
         style={{ width: "18rem" }}
       >
         <div className="card-body">
-          <h5 className="card-title">Abhinav Choudhary</h5>
+          <h5 className="card-title fw-bold">Abhinav Choudhary</h5>
           <h6 className="card-subtitle mb-2 text-muted">CS Student</h6>
           <p className="card-text">
             Hello & welcome to my portfolio website! Here, I proudly present my
