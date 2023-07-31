@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Carousel() {
   return (
-    <div className="container">
+    <div className="container p-2" id="myCarousel">
       <div
         id="carouselExampleCaptions carouselExampleFade"
         className="carousel slide carousel-fade"

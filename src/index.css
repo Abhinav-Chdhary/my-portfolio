@@ -8,7 +8,15 @@
     rgba(252, 176, 69, 1) 100%
   );
 }
-
+#myCarousel {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 10%,
+    rgba(255, 7, 1, 1) 60%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
 .dot {
   height: 25px;
   width: 25px;
