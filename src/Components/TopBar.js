@@ -3,7 +3,7 @@ import React from "react";
 export default function TopBar() {
   return (
     <div>
-      <header className="position-sticky bg-dark text-light fw-bold display-1 py-3 mb-4 border-bottom dagger">
+      <header className="position-sticky top-0 bg-dark text-light fw-bold display-1 py-3 mb-4 border-bottom dagger">
         <div className="container d-flex flex-wrap justify-content-center">
           <div
             className="fs-1"
