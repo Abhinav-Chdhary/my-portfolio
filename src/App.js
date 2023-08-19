@@ -1,25 +1,17 @@
 import React from "react";
-import Bio from "./Components/Bio";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import TopBar from "./Components/TopBar";
-import Carousel from "./Components/Carousel";
-import Quote from "./Components/Quote";
 import Footer from "./Components/Footer";
+import Homepage from "./Screens/Homepage";
 
-function App() {
+export default function App() {
   return (
-    <div>
+    <BrowserRouter>
       <TopBar />
-      <Quote />
-      <div className="container">
-        <Bio />
-        <hr />
-      </div>
-      <div>
-        <Carousel />
-      </div>
+      <Routes>
+        <Route exact path="/my-portfolio" element={<Homepage />} />
+      </Routes>
       <Footer />
-    </div>
+    </BrowserRouter>
   );
 }
-
-export default App;
