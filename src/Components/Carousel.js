@@ -10,7 +10,7 @@ export default function Carousel() {
         My Projects
       </div>
 
-      <div className="p-2 mb-4 fw-bold " id="myCarousel">
+      <div className="p-2 mb-4 fw-bold myCarousel">
         <div
           id="carouselExampleCaptions"
           className="carousel slide carousel-fade"
