@@ -2,148 +2,150 @@ import React from "react";
 
 export default function ClaircoClone() {
   return (
-    <div>
+    <div className="container">
       <div
         className="fs-2 text-center"
         style={{ "font-family": "'Permanent Marker', cursive" }}
       >
         Clairco-Clone
       </div>
-      <div
-        id="carouselExampleControls"
-        className="carousel slide container myCarousel p-2 mt-2"
-        data-bs-ride="carousel"
-      >
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img
-              src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco1.png"
-              className="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco2.png"
-              className="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco3.png"
-              className="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco4.png"
-              className="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco5.png"
-              className="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco6.png"
-              className="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco7.png"
-              className="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco8.png"
-              className="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco9.png"
-              className="d-block w-100"
-              alt="..."
-            />
-          </div>
-        </div>
-        <button
-          className="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span
-            className="carousel-control-prev-icon bg-dark"
-            aria-hidden="true"
-          ></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button
-          className="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span
-            className="carousel-control-next-icon bg-dark"
-            aria-hidden="true"
-          ></span>
-          <span className="visually-hidden">Next</span>
-        </button>
-      </div>
-      <div className="container my-3">
+      <div className="container row align-items-center justify-content-between">
         <div
-          className="fs-4"
-          style={{ "font-family": "'Permanent Marker', cursive" }}
+          id="carouselExampleControls"
+          className="carousel slide container myCarousel p-2 mt-2 col-6"
+          data-bs-ride="carousel"
         >
-          Features:
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img
+                src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco1.png"
+                className="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco2.png"
+                className="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco3.png"
+                className="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco4.png"
+                className="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco5.png"
+                className="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco6.png"
+                className="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco7.png"
+                className="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco8.png"
+                className="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div className="carousel-item">
+              <img
+                src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco9.png"
+                className="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            className="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span
+              className="carousel-control-prev-icon bg-dark"
+              aria-hidden="true"
+            ></span>
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button
+            className="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span
+              className="carousel-control-next-icon bg-dark"
+              aria-hidden="true"
+            ></span>
+            <span className="visually-hidden">Next</span>
+          </button>
         </div>
-        <button type="button" className="btn btn-outline-dark mx-1 my-1">
-          Login/Logout
-        </button>
-        <button type="button" className="btn btn-outline-dark mx-1 my-1">
-          Admin side
-        </button>
-        <button type="button" className="btn btn-outline-dark mx-1 my-1">
-          Customer side
-        </button>
-        <button type="button" className="btn btn-outline-dark mx-1 my-1">
-          Create new building
-        </button>
-        <button type="button" className="btn btn-outline-dark mx-1 my-1">
-          Create new company
-        </button>
-        <button type="button" className="btn btn-outline-dark mx-1 my-1">
-          Update real time
-        </button>
-        <button type="button" className="btn btn-outline-dark mx-1 my-1">
-          Weather-air quality
-        </button>
-        <button type="button" className="btn btn-outline-dark mx-1 my-1">
-          Route security
-        </button>
-        <button type="button" className="btn btn-outline-dark mx-1 my-1">
-          Edit Modal
-        </button>
-        <button type="button" className="btn btn-outline-dark mx-1 my-1">
-          CRUD operations
-        </button>
-        <button type="button" className="btn btn-outline-dark mx-1 my-1">
-          External APIs
-        </button>
+        <div className="container my-3 col-6">
+          <div
+            className="fs-4"
+            style={{ "font-family": "'Permanent Marker', cursive" }}
+          >
+            Features:
+          </div>
+          <button type="button" className="btn btn-outline-dark mx-1 my-1">
+            Login/Logout
+          </button>
+          <button type="button" className="btn btn-outline-dark mx-1 my-1">
+            Admin side
+          </button>
+          <button type="button" className="btn btn-outline-dark mx-1 my-1">
+            Customer side
+          </button>
+          <button type="button" className="btn btn-outline-dark mx-1 my-1">
+            Create new building
+          </button>
+          <button type="button" className="btn btn-outline-dark mx-1 my-1">
+            Create new company
+          </button>
+          <button type="button" className="btn btn-outline-dark mx-1 my-1">
+            Update real time
+          </button>
+          <button type="button" className="btn btn-outline-dark mx-1 my-1">
+            Weather-air quality
+          </button>
+          <button type="button" className="btn btn-outline-dark mx-1 my-1">
+            Route security
+          </button>
+          <button type="button" className="btn btn-outline-dark mx-1 my-1">
+            Edit Modal
+          </button>
+          <button type="button" className="btn btn-outline-dark mx-1 my-1">
+            CRUD operations
+          </button>
+          <button type="button" className="btn btn-outline-dark mx-1 my-1">
+            External APIs
+          </button>
+        </div>
       </div>
     </div>
   );
