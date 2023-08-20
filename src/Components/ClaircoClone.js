@@ -9,10 +9,10 @@ export default function ClaircoClone() {
       >
         Clairco-Clone
       </div>
-      <div className="container row align-items-center justify-content-between">
+      <div className="container d-flex forMobile">
         <div
           id="carouselExampleControls"
-          className="carousel slide container myCarousel p-2 mt-2 col-6"
+          className="carousel slide container myCarousel p-2 mt-2"
           data-bs-ride="carousel"
         >
           <div className="carousel-inner">
@@ -105,7 +105,7 @@ export default function ClaircoClone() {
             <span className="visually-hidden">Next</span>
           </button>
         </div>
-        <div className="container my-3 col-6">
+        <div className="container my-3">
           <div
             className="fs-4"
             style={{ "font-family": "'Permanent Marker', cursive" }}
