@@ -104,7 +104,47 @@ export default function ClaircoClone() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      <div></div>
+      <div className="container my-3">
+        <div
+          className="fs-4"
+          style={{ "font-family": "'Permanent Marker', cursive" }}
+        >
+          Features:
+        </div>
+        <button type="button" className="btn btn-outline-dark mx-1 my-1">
+          Login/Logout
+        </button>
+        <button type="button" className="btn btn-outline-dark mx-1 my-1">
+          Admin side
+        </button>
+        <button type="button" className="btn btn-outline-dark mx-1 my-1">
+          Customer side
+        </button>
+        <button type="button" className="btn btn-outline-dark mx-1 my-1">
+          Create new building
+        </button>
+        <button type="button" className="btn btn-outline-dark mx-1 my-1">
+          Create new company
+        </button>
+        <button type="button" className="btn btn-outline-dark mx-1 my-1">
+          Update real time
+        </button>
+        <button type="button" className="btn btn-outline-dark mx-1 my-1">
+          Weather-air quality
+        </button>
+        <button type="button" className="btn btn-outline-dark mx-1 my-1">
+          Route security
+        </button>
+        <button type="button" className="btn btn-outline-dark mx-1 my-1">
+          Edit Modal
+        </button>
+        <button type="button" className="btn btn-outline-dark mx-1 my-1">
+          CRUD operations
+        </button>
+        <button type="button" className="btn btn-outline-dark mx-1 my-1">
+          External APIs
+        </button>
+      </div>
     </div>
   );
 }
