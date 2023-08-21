@@ -147,6 +147,7 @@ export default function ClaircoClone() {
           </button>
         </div>
       </div>
+      <hr className="my-4" />
     </div>
   );
 }

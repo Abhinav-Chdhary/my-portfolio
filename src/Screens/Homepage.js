@@ -25,8 +25,14 @@ function App() {
         }}
       >
         <div className="text-dark fw-bold container">
-          {showcontent ? <>Click to see less.</> : <>Click to see more.</>}
-          <hr />
+          {showcontent ? (
+            <>
+              Click to see less.
+              <hr className="my-4" />
+            </>
+          ) : (
+            <>Click to see more.</>
+          )}
         </div>
       </Link>
 
