@@ -11,7 +11,7 @@ export default function Seneca() {
       </div>
       <div className="container d-flex forMobile flex-row-reverse">
         <div
-          id="carouselExampleControls"
+          id="senecaControls"
           className="carousel slide container myCarousel p-2 mt-2"
           data-bs-ride="carousel"
         >
@@ -41,7 +41,7 @@ export default function Seneca() {
           <button
             className="carousel-control-prev"
             type="button"
-            data-bs-target="#carouselExampleControls"
+            data-bs-target="#senecaControls"
             data-bs-slide="prev"
           >
             <span
@@ -53,7 +53,7 @@ export default function Seneca() {
           <button
             className="carousel-control-next"
             type="button"
-            data-bs-target="#carouselExampleControls"
+            data-bs-target="#senecaControls"
             data-bs-slide="next"
           >
             <span
@@ -81,6 +81,24 @@ export default function Seneca() {
           </button>
           <button type="button" className="btn btn-outline-dark mx-1 my-1">
             External APIs
+          </button>
+          <div
+            className="fs-4"
+            style={{ "font-family": "'Permanent Marker', cursive" }}
+          >
+            Future Work
+          </div>
+          <button type="button" className="btn btn-outline-dark mx-1 my-1">
+            Real-time generation
+          </button>
+          <button type="button" className="btn btn-outline-dark mx-1 my-1">
+            AI model integration
+          </button>
+          <button type="button" className="btn btn-outline-dark mx-1 my-1">
+            Contextual conversations
+          </button>
+          <button type="button" className="btn btn-outline-dark mx-1 my-1">
+            Brain emulation
           </button>
         </div>
       </div>
