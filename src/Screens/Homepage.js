@@ -17,16 +17,19 @@ function App() {
       <div>
         <Carousel />
       </div>
+
       <Link
         className="text-center"
         onClick={(e) => {
           setShowcontent(!showcontent);
         }}
       >
-        <div className="text-dark fw-bold">
+        <div className="text-dark fw-bold container">
           {showcontent ? <>Click to see less.</> : <>Click to see more.</>}
+          <hr />
         </div>
       </Link>
+
       {showcontent && <MoreScreen />}
     </div>
   );
