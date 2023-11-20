@@ -18,21 +18,21 @@ export default function Seneca() {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
-                src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/Seneca1.png"
+                src="https://abhinav-chdhary.github.io/my-portfolio/Seneca1.png"
                 className="d-block w-100"
                 alt="..."
               />
             </div>
             <div className="carousel-item">
               <img
-                src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/Seneca2.png"
+                src="https://abhinav-chdhary.github.io/my-portfolio/Seneca2.png"
                 className="d-block w-100"
                 alt="..."
               />
             </div>
             <div className="carousel-item">
               <img
-                src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/Seneca3.png"
+                src="https://abhinav-chdhary.github.io/my-portfolio/Seneca3.png"
                 className="d-block w-100"
                 alt="..."
               />

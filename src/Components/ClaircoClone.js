@@ -18,63 +18,63 @@ export default function ClaircoClone() {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
-                src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco1.png"
+                src="https://abhinav-chdhary.github.io/my-portfolio/clairco1.png"
                 className="d-block w-100"
                 alt="..."
               />
             </div>
             <div className="carousel-item">
               <img
-                src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco2.png"
+                src="https://abhinav-chdhary.github.io/my-portfolio/clairco2.png"
                 className="d-block w-100"
                 alt="..."
               />
             </div>
             <div className="carousel-item">
               <img
-                src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco3.png"
+                src="https://abhinav-chdhary.github.io/my-portfolio/clairco3.png"
                 className="d-block w-100"
                 alt="..."
               />
             </div>
             <div className="carousel-item">
               <img
-                src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco4.png"
+                src="https://abhinav-chdhary.github.io/my-portfolio/clairco4.png"
                 className="d-block w-100"
                 alt="..."
               />
             </div>
             <div className="carousel-item">
               <img
-                src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco5.png"
+                src="https://abhinav-chdhary.github.io/my-portfolio/clairco5.png"
                 className="d-block w-100"
                 alt="..."
               />
             </div>
             <div className="carousel-item">
               <img
-                src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco6.png"
+                src="https://abhinav-chdhary.github.io/my-portfolio/clairco6.png"
                 className="d-block w-100"
                 alt="..."
               />
             </div>
             <div className="carousel-item">
               <img
-                src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco7.png"
+                src="https://abhinav-chdhary.github.io/my-portfolio/clairco7.png"
                 className="d-block w-100"
                 alt="..."
               />
             </div>
             <div className="carousel-item">
               <img
-                src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco8.png"
+                src="https://abhinav-chdhary.github.io/my-portfolio/clairco8.png"
                 className="d-block w-100"
                 alt="..."
               />
             </div>
             <div className="carousel-item">
               <img
-                src="https://raw.githubusercontent.com/Abhinav-Chdhary/my-portfolio/main/public/clairco9.png"
+                src="https://abhinav-chdhary.github.io/my-portfolio/clairco9.png"
                 className="d-block w-100"
                 alt="..."
               />
