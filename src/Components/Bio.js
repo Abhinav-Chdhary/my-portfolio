@@ -2,7 +2,12 @@ import React from "react";
 
 export default function Bio() {
   return (
-    <div className="border border-3 border-dark shadow-lg p-3 mb-5 rounded bg-dark">
+    <div
+      className="border border-3 border-dark shadow-lg p-3 mb-5 rounded bg-dark"
+      style={{
+        backgroundImage: "url('https://source.unsplash.com/iE71-TMrrkE')",
+      }}
+    >
       <div
         className="m-4 card border border-dark shadow-lg p-3 mb-5 bg-body rounded"
         style={{ width: "20rem" }}
@@ -18,7 +23,6 @@ export default function Bio() {
             creativity, we can shape a better and more connected world.
           </p>
         </div>
-        <img src="./editedfu.png" alt="avatar" />
       </div>
     </div>
   );
