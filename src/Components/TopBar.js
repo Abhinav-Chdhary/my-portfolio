@@ -8,7 +8,7 @@ export default function TopBar() {
       <div className=" d-flex flex-row justify-content-around">
         <span
           className="fs-1"
-          style={{ "font-family": "'Permanent Marker', cursive" }}
+          style={{ fontFamily: "'Permanent Marker', cursive" }}
         >
           My Portfolio
         </span>

@@ -5,7 +5,7 @@ export default function Carousel() {
     <div className="container">
       <div
         className="fs-2 text-center my-2"
-        style={{ "font-family": "'Permanent Marker', cursive" }}
+        style={{ fontFamily: "'Permanent Marker', cursive" }}
       >
         My Projects
       </div>
@@ -48,7 +48,7 @@ export default function Carousel() {
               <div className="carousel-caption d-none d-md-block">
                 <h3
                   className="fw-bold"
-                  style={{ "font-family": "'Permanent Marker', cursive" }}
+                  style={{ fontFamily: "'Permanent Marker', cursive" }}
                 >
                   Immuno Game
                 </h3>
@@ -64,7 +64,7 @@ export default function Carousel() {
               <div className="carousel-caption d-none d-md-block text-dark">
                 <h3
                   className="text-success"
-                  style={{ "font-family": "'Permanent Marker', cursive" }}
+                  style={{ fontFamily: "'Permanent Marker', cursive" }}
                 >
                   Friday Foods
                 </h3>
@@ -78,7 +78,7 @@ export default function Carousel() {
                 alt="..."
               />
               <div className="carousel-caption d-none d-md-block text-dark">
-                <h3 style={{ "font-family": "'Permanent Marker', cursive" }}>
+                <h3 style={{ fontFamily: "'Permanent Marker', cursive" }}>
                   Personal blog web-app
                 </h3>
                 <p>A website to publish my writings.</p>

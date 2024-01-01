@@ -5,7 +5,7 @@ export default function ClaircoClone() {
     <div className="container">
       <div
         className="fs-2 text-center"
-        style={{ "font-family": "'Permanent Marker', cursive" }}
+        style={{ fontFamily: "'Permanent Marker', cursive" }}
       >
         Clairco-Clone
       </div>
@@ -108,7 +108,7 @@ export default function ClaircoClone() {
         <div className="container my-3">
           <div
             className="fs-4"
-            style={{ "font-family": "'Permanent Marker', cursive" }}
+            style={{ fontFamily: "'Permanent Marker', cursive" }}
           >
             Features:
           </div>

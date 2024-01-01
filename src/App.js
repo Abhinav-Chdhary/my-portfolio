@@ -9,7 +9,7 @@ export default function App() {
     <BrowserRouter>
       <TopBar />
       <Routes>
-        <Route exact path="/my-portfolio" element={<Homepage />} />
+        <Route exact path="/" element={<Homepage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

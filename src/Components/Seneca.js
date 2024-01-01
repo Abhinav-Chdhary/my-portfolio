@@ -5,7 +5,7 @@ export default function Seneca() {
     <div className="container">
       <div
         className="fs-2 text-center"
-        style={{ "font-family": "'Permanent Marker', cursive" }}
+        style={{ fontFamily: "'Permanent Marker', cursive" }}
       >
         Seneca-avatar
       </div>
@@ -66,7 +66,7 @@ export default function Seneca() {
         <div className="container my-3">
           <div
             className="fs-4"
-            style={{ "font-family": "'Permanent Marker', cursive" }}
+            style={{ fontFamily: "'Permanent Marker', cursive" }}
           >
             Features:
           </div>
@@ -84,7 +84,7 @@ export default function Seneca() {
           </button>
           <div
             className="fs-4"
-            style={{ "font-family": "'Permanent Marker', cursive" }}
+            style={{ fontFamily: "'Permanent Marker', cursive" }}
           >
             Future Work
           </div>
