@@ -13,7 +13,11 @@ export default function TopBar() {
           My Portfolio
         </span>
         <div>
-          <Link to="https://github.com/Abhinav-Chdhary" className="card-link">
+          <Link
+            to="https://github.com/Abhinav-Chdhary"
+            className="card-link"
+            target="_blank"
+          >
             <button type="button" className="btn btn-dark btn-lg">
               <BsGithub />
             </button>
@@ -22,6 +26,7 @@ export default function TopBar() {
           <Link
             to="https://www.linkedin.com/in/abhinavchdhary/"
             className="card-link"
+            target="_blank"
           >
             <button type="button" className="btn btn-primary btn-lg ms-2">
               <BsLinkedin />
