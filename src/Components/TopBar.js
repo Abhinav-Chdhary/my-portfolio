@@ -1,18 +1,34 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 export default function TopBar() {
   return (
-    <div className="sticky-top">
-      <header className=" bg-dark text-light fw-bold display-1 py-3 mb-4 border-bottom dagger">
-        <div className=" container d-flex flex-wrap justify-content-center">
-          <div
-            className="fs-1"
-            style={{ "font-family": "'Permanent Marker', cursive" }}
+    <header className="sticky-top bg-dark text-light fw-bold py-3 mb-4 border-bottom dagger">
+      <div className=" d-flex flex-row justify-content-around">
+        <span
+          className="fs-1"
+          style={{ "font-family": "'Permanent Marker', cursive" }}
+        >
+          My Portfolio
+        </span>
+        <div>
+          <Link to="https://github.com/Abhinav-Chdhary" className="card-link">
+            <button type="button" className="btn btn-dark btn-lg">
+              <BsGithub />
+            </button>
+          </Link>
+
+          <Link
+            to="https://www.linkedin.com/in/abhinavchdhary/"
+            className="card-link"
           >
-            My Portfolio
-          </div>
+            <button type="button" className="btn btn-primary btn-lg ms-2">
+              <BsLinkedin />
+            </button>
+          </Link>
         </div>
-      </header>
-    </div>
+      </div>
+    </header>
   );
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 export default function Bio() {
   return (
@@ -21,21 +20,6 @@ export default function Bio() {
             collection of personal projects that I'm excited to share with you.
             I sincerely hope you find them inspiring.
           </p>
-
-          <a href="https://github.com/Abhinav-Chdhary" className="card-link">
-            <button type="button" class="btn btn-outline-dark rounded-circle">
-              <BsGithub />
-            </button>
-          </a>
-
-          <a
-            href="https://www.linkedin.com/in/abhinavchdhary/"
-            className="card-link"
-          >
-            <button type="button" class="btn btn-outline-primary">
-              <BsLinkedin />
-            </button>
-          </a>
         </div>
       </div>
     </div>
