@@ -38,7 +38,7 @@ export default function TopBar() {
             </button>
           </a>
           <a
-            href="https://abhinav-choudhary.itch.io/"
+            href="https://leetcode.com/Megh_nad/"
             target="_blank"
             rel="noopener noreferrer"
           >
