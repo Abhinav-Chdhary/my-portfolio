@@ -6,9 +6,11 @@ import { SiLeetcode } from "react-icons/si";
 export default function TopBar() {
   return (
     <header className="bg-gradient-to-r from-blue-950 via-blue-600 to-white p-4 text-white">
-      <div className=" flex justify-around">
-        <span className="text-4xl p-2">My Portfolio</span>
-        <div>
+      <div className="flex flex-col md:flex-row md:items-center justify-around">
+        <span className="text-4xl p-2 font-bold mb-2 md:mb-0">
+          My Portfolio
+        </span>
+        <div className="flex justify-around">
           <a
             href="https://github.com/Abhinav-Chdhary"
             target="_blank"
@@ -42,7 +44,7 @@ export default function TopBar() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <button className=" bg-yellow-500 hover:bg-black text-white p-2 rounded-md m-2">
+            <button className="bg-yellow-500 hover:bg-black text-white p-2 rounded-md m-2">
               <SiLeetcode size={32} />
             </button>
           </a>
