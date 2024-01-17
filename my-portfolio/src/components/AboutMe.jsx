@@ -22,7 +22,8 @@ export default function AboutMe() {
           <img
             src={avatarImage}
             alt="Avatar"
-            className="rounded-full object-cover w-full md:w-64 h-auto mb-4 md:mb-0"
+            className="rounded-full object-cover w-full md:w-64 h-auto my-2 md:mb-0"
+            style={{ boxShadow: "0 4px 8px rgba(255, 255, 255, 0.7)" }}
           />
         </div>
       </div>
