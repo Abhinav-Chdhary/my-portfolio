@@ -8,7 +8,7 @@ export default function Stars() {
   return (
     <mesh position={posi}>
       <sphereGeometry args={[0.25, 24, 24]} />
-      <meshStandardMaterial color={"#ffffff"} />
+      <meshBasicMaterial color={"#ffffff"} />
     </mesh>
   );
 }
