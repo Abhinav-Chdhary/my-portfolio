@@ -11,7 +11,7 @@ export default function MoonScene() {
       <PerspectiveCamera makeDefault fov={50} position={[0, 0, 10]} />
       <color args={[0, 0, 0]} attach={"background"} />
       <ambientLight intensity={0.5} />
-      <pointLight position={[3, 2, 5]} angle={0.5} intensity={200} />
+      <pointLight position={[-5, 1.5, 5]} angle={0.5} intensity={200} />
       <Moon />
       <OrbitControls
         enableZoom={false}

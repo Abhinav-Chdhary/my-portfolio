@@ -9,7 +9,7 @@ export default function Moon() {
   const moonNormalMap = new TextureLoader().load(moonNormal);
   const moonRef = useRef();
   useFrame(() => {
-    moonRef.current.rotation.z += 0.001;
+    moonRef.current.rotation.y += 0.002;
   });
   return (
     <mesh ref={moonRef}>
