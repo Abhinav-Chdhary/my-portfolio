@@ -26,34 +26,34 @@ import { SiSolidity } from "react-icons/si";
 
 export default function SkillCubes() {
   const icons = [
-    <FaReact color="#46d3f2" size={32} />,
-    <FaNodeJs color="green" size={32} />,
-    <SiExpress size={32} />,
-    <FaUnity size={32} />,
-    <SiMongodb color="green" size={32} />,
-    <SiUnrealengine size={32} />,
-    <FaPython color="#2027b0" size={32} />,
-    <IoLogoJavascript color="#f5dd07" size={32} />,
-    <SiMysql color="#f78f07" size={32} />,
-    <VscTerminalLinux size={32} />,
-    <FaJava color="#6d7ecf" size={32} />,
-    <TbBrandCpp color="#002aff" size={32} />,
-    <BiLogoAndroid color="#09ff00" size={32} />,
-    <BiLogoGithub size={32} />,
-    <BiLogoGit color="#fa1919" size={32} />,
-    <BiLogoFlask size={32} />,
-    <BiLogoHtml5 color="#fc0303" size={32} />,
-    <BiLogoMicrosoft color="blue" size={32} />,
-    <BiLogoRedux color="#46d3f2" size={32} />,
-    <BiLogoTailwindCss color="#03f4fc" size={32} />,
-    <BiLogoVisualStudio color="#0390fc" size={32} />,
-    <BsCCircle color="#01056b" size={32} />,
-    <TbBrandCSharp color="#a004d4" size={32} />,
-    <SiSolidity size={32} />,
+    <FaReact color="#46d3f2" size={64} />,
+    <BiLogoFlask size={64} />,
+    <FaNodeJs color="green" size={64} />,
+    <SiExpress size={64} />,
+    <SiMongodb color="green" size={64} />,
+    <SiMysql color="#f78f07" size={64} />,
+    <FaUnity size={64} />,
+    <SiUnrealengine size={64} />,
+    <FaPython color="#2027b0" size={64} />,
+    <IoLogoJavascript color="#f5dd07" size={64} />,
+    <FaJava color="#6d7ecf" size={64} />,
+    <TbBrandCpp color="#002aff" size={64} />,
+    <BiLogoHtml5 color="#fc0303" size={64} />,
+    <TbBrandCSharp color="#a004d4" size={64} />,
+    <SiSolidity size={64} />,
+    <BiLogoTailwindCss color="#03f4fc" size={64} />,
+    <BsCCircle color="#01056b" size={64} />,
+    <BiLogoAndroid color="#09ff00" size={64} />,
+    <BiLogoGithub size={64} />,
+    <BiLogoGit color="#fa1919" size={64} />,
+    <VscTerminalLinux size={64} />,
+    <BiLogoMicrosoft color="blue" size={64} />,
+    <BiLogoRedux color="#46d3f2" size={64} />,
+    <BiLogoVisualStudio color="#0390fc" size={64} />,
   ];
 
   return (
-    <div className="grid grid-cols-6 2xl:grid-cols-8 gap-4">
+    <div className="grid grid-cols-4 md:grid-cols-6 2xl:grid-cols-8 gap-4">
       {icons.map((icon, index) => (
         <div key={index} className="p-2">
           {icon}
