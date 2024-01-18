@@ -3,6 +3,7 @@ import TopBar from "./components/TopBar";
 import MoonScene from "./components/MoonScene";
 import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
+import Experience from "./components/Experience";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <MoonScene />
       <AboutMe />
       <Skills />
+      <Experience />
     </div>
   );
 }
