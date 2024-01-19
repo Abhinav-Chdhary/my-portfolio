@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.moonCanvas {
+  height: 40svh;
+}
+.moonCanvas:hover {
+  cursor: pointer;
+}
