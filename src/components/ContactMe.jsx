@@ -51,7 +51,26 @@ export default function ContactMe() {
   return (
     <div>
       <ToastContainer />
-      <form ref={form} onSubmit={sendEmail} className="max-w-md mx-auto">
+      <h2 className="text-3xl font-bold mb-4 text-center my-2 flex justify-center">
+        Contact Me
+        <picture className="mx-2">
+          <source
+            srcSet="https://fonts.gstatic.com/s/e/notoemoji/latest/1f60e/512.webp"
+            type="image/webp"
+          />
+          <img
+            src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f60e/512.gif"
+            alt="😎"
+            width="32"
+            height="32"
+          />
+        </picture>
+      </h2>
+      <form
+        ref={form}
+        onSubmit={sendEmail}
+        className="max-w-md mx-5 md:mx-auto"
+      >
         <div className="mb-4">
           <label
             className="block text-gray-800 font-bold mb-2"

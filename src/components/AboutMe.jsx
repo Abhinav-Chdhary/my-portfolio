@@ -6,7 +6,21 @@ export default function AboutMe() {
     <div className="bg-blue-950">
       <div className="p-8 flex flex-col md:flex-row justify-around container mx-auto">
         <div className="flex-1 justify-center">
-          <h2 className="text-3xl font-bold mb-4 text-white">About Me 👋</h2>
+          <h2 className="text-3xl font-bold mb-4 text-center my-2 flex justify-start text-white">
+            Hi there
+            <picture className="mx-2">
+              <source
+                srcSet="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.webp"
+                type="image/webp"
+              />
+              <img
+                src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f44b/512.gif"
+                alt="👋"
+                width="32"
+                height="32"
+              />
+            </picture>
+          </h2>
           <p className="text-gray-200 mx-auto">
             Hi there! I'm Abhinav Choudhary, a passionate developer who loves
             creating awesome web applications. I have experience with front-end
