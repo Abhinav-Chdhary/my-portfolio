@@ -25,7 +25,7 @@ export default function AboutMe() {
             Hi there! I'm Abhinav Choudhary, a passionate developer who loves
             creating awesome web applications. I have experience with front-end
             technologies like React and enjoy exploring new technologies to
-            enhance my skillss.
+            enhance my skills.
           </p>
           <p className="text-gray-200 mt-2">
             In my free time, I enjoy solving coding challenges, making games,

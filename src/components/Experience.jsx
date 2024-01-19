@@ -12,8 +12,7 @@ const Experience = () => {
           <img
             src={GEUimg}
             alt="GEU image"
-            className="rounded-full object-cover w-full md:w-48 h-auto my-2 md:mb-0 mx-auto md:mx-2"
-            style={{ boxShadow: "0 4px 8px rgba(255, 255, 255, 0.7)" }}
+            className="rounded-full object-cover w-48 md:w-48 h-auto my-2 md:mb-0 mx-auto md:mr-3 shadow-md shadow-white/70 hover:shadow-white hover:shadow-lg"
           />
           <div>
             <h2 className="text-2xl font-bold">Graphic Era University</h2>
@@ -34,8 +33,7 @@ const Experience = () => {
           <img
             src={ClaircoImg}
             alt="Clairco Image"
-            className="rounded-full object-cover w-full md:w-48 h-auto my-2 md:mb-0 mx-auto md:mx-2"
-            style={{ boxShadow: "0 4px 8px rgba(255, 255, 255, 0.7)" }}
+            className="rounded-full object-cover w-48 md:w-48 h-auto my-2 md:mb-0 mx-auto md:mr-3 shadow-md shadow-white/70 hover:shadow-white hover:shadow-lg"
           />
           <div>
             <h2 className="text-2xl font-bold">Clairco</h2>
