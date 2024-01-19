@@ -6,7 +6,7 @@ export default function AboutMe() {
     <div className="bg-blue-950">
       <div className="p-8 flex flex-col md:flex-row justify-around container mx-auto">
         <div className="flex-1 justify-center">
-          <h2 className="text-3xl font-bold mb-4 text-white">About Me</h2>
+          <h2 className="text-3xl font-bold mb-4 text-white">About Me 👋</h2>
           <p className="text-gray-200 mx-auto">
             Hi there! I'm Abhinav Choudhary, a passionate developer who loves
             creating awesome web applications. I have experience with front-end
@@ -22,8 +22,7 @@ export default function AboutMe() {
           <img
             src={avatarImage}
             alt="Avatar"
-            className="rounded-full object-cover w-full md:w-64 h-auto my-2 md:mb-0"
-            style={{ boxShadow: "0 4px 8px rgba(255, 255, 255, 0.7)" }}
+            className="rounded-full object-cover w-full md:w-64 h-auto my-2 md:mb-0 shadow-md shadow-white/70 hover:shadow-white hover:shadow-lg"
           />
         </div>
       </div>
