@@ -1,5 +1,5 @@
 # Portfolio
-This is a short portfolio website I made while learning web development.😅😎
+Hi this is my portfolio website, go ahead take a look give me feedback.😅😎
 ## Tech Stack
-React, bootstrap-5, javaScript
+Reactjs, tailwind css, Emailjs, react three fiber.
 ## Check it out [HERE](https://abhinav-chdhary.github.io/my-portfolio/)
