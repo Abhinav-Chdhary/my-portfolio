@@ -24,3 +24,6 @@
   transform: scale(1.2);
   color: rgb(255, 208, 0);
 }
+a:hover {
+  text-decoration: underline;
+}

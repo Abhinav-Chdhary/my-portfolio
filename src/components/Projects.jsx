@@ -24,12 +24,17 @@ export default function Projects() {
       </h2>
       <div className="mb-8 flex flex-col-reverse md:flex-row proImg">
         <div>
-          <h2 className="text-2xl font-bold myHeading">
-            Housing price predictor
-            <span className="arrow">
-              <TiLocationArrowOutline />
-            </span>
-          </h2>
+          <a
+            href="https://github.com/Abhinav-Chdhary/housing-price-predictor"
+            target="_blank"
+          >
+            <h2 className="text-2xl font-bold myHeading">
+              Housing price predictor
+              <span className="arrow">
+                <TiLocationArrowOutline />
+              </span>
+            </h2>
+          </a>
           <h3 className="font-semibold text-gray-400 text-sm md:text-lg">
             Sept, 2023 - Oct, 2023
           </h3>
@@ -50,12 +55,14 @@ export default function Projects() {
 
       <div className="mb-8 flex flex-col-reverse md:flex-row proImg">
         <div>
-          <h2 className="text-2xl font-bold myHeading">
-            Hack-o-holic-2.0
-            <span className="arrow">
-              <TiLocationArrowOutline />
-            </span>
-          </h2>
+          <a href="https://abhinav-chdhary.github.io/" target="_blank">
+            <h2 className="text-2xl font-bold myHeading">
+              Hack-o-holic-2.0
+              <span className="arrow">
+                <TiLocationArrowOutline />
+              </span>
+            </h2>
+          </a>
           <h3 className="text-sm md:text-lg font-semibold text-gray-400">
             24 Nov, 2023
           </h3>
@@ -73,12 +80,14 @@ export default function Projects() {
       </div>
       <div className="mb-8 flex flex-col-reverse md:flex-row proImg">
         <div>
-          <h2 className="text-2xl font-bold myHeading shining-text">
-            Immuno Game
-            <span className="arrow">
-              <TiLocationArrowOutline />
-            </span>
-          </h2>
+          <a href="https://abhinav-choudhary.itch.io/immuno" target="_blank">
+            <h2 className="text-2xl font-bold myHeading shining-text">
+              Immuno Game
+              <span className="arrow">
+                <TiLocationArrowOutline />
+              </span>
+            </h2>
+          </a>
           <h3 className="text-sm md:text-lg font-semibold text-gray-400">
             January, 2023 - February, 2023
           </h3>
