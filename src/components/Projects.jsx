@@ -67,11 +67,9 @@ export default function Projects() {
             24 Nov, 2023
           </h3>
           <p>
-            Clairco (Aliferous Technologies Pvt Ltd) is a Bangalore based
-            startup. As a Software Developer intern, I contributed to
-            interactive applications using React, MongoDB, Express.js, and
-            Node.js, gaining hands-on experience across the software development
-            lifecycle.
+            A collection of mini-games curated for mentally challenged kids. We
+            made this for hack-o-holic hackathon 2023. It was a 24-hour
+            hackathon. Our team made it into the top 10.
           </p>
         </div>
       </div>
@@ -92,11 +90,10 @@ export default function Projects() {
             January, 2023 - February, 2023
           </h3>
           <p>
-            Clairco (Aliferous Technologies Pvt Ltd) is a Bangalore based
-            startup. As a Software Developer intern, I contributed to
-            interactive applications using React, MongoDB, Express.js, and
-            Node.js, gaining hands-on experience across the software development
-            lifecycle.
+            Engaged in the "My First Game Jam: Winter 2023," centered around the
+            theme "Growth," marking my inaugural participation in a game jam.
+            The highlight was playtesting fellow creators’ games and fostering
+            interactive discussions.
           </p>
         </div>
       </div>
