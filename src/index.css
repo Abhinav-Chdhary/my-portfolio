@@ -11,4 +11,16 @@
 .myHeading {
   font-family: "Alike", serif;
   font-family: "Luxurious Roman", serif;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.arrow {
+  position: absolute;
+  padding-left: 0.5em;
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.proImg:hover .arrow {
+  opacity: 1;
+  transform: scale(1.2);
+  color: rgb(255, 208, 0);
 }
