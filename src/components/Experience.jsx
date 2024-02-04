@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <div className="bg-blue-950 p-8 text-white ">
       <div className="container mx-auto max-w-4xl">
-        <h1 className="text-3xl font-bold mb-4">Experience</h1>
+        <h1 className="text-3xl font-bold mb-4 myHeading">Experience</h1>
 
         <div className="mb-8 flex flex-col-reverse md:flex-row">
           <img
@@ -15,7 +15,9 @@ const Experience = () => {
             className="rounded-full object-cover w-48 md:w-48 h-auto my-2 md:mb-0 mx-auto md:mr-3 shadow-md shadow-white/70 hover:shadow-white hover:shadow-lg"
           />
           <div>
-            <h2 className="text-2xl font-bold">Graphic Era University</h2>
+            <h2 className="text-2xl font-bold myHeading">
+              Graphic Era University
+            </h2>
             <h3 className="font-semibold text-gray-400 text-sm md:text-lg">
               CS Student | 2021-2025 | SCGPA: 8.47
             </h3>
@@ -36,7 +38,7 @@ const Experience = () => {
             className="rounded-full object-cover w-48 md:w-48 h-auto my-2 md:mb-0 mx-auto md:mr-3 shadow-md shadow-white/70 hover:shadow-white hover:shadow-lg"
           />
           <div>
-            <h2 className="text-2xl font-bold">Clairco</h2>
+            <h2 className="text-2xl font-bold myHeading">Clairco</h2>
             <h3 className="text-sm md:text-lg font-semibold text-gray-400">
               Software Development Intern | Jun'23 - Aug'23
             </h3>

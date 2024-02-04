@@ -7,7 +7,7 @@ export default function TopBar() {
   return (
     <header className="bg-gradient-to-r from-blue-950 via-blue-600 to-white p-4 text-white">
       <div className="flex flex-col md:flex-row md:items-center justify-around">
-        <span className="text-4xl p-2 font-bold mb-2 md:mb-0">
+        <span className="text-4xl p-2 font-bold mb-2 md:mb-0 myHeading">
           My Portfolio
         </span>
         <div className="flex justify-around">

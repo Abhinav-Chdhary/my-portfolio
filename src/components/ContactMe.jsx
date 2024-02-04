@@ -94,7 +94,7 @@ export default function ContactMe() {
   return (
     <div className="my-10">
       <ToastContainer />
-      <h2 className="text-3xl font-bold mb-4 text-center my-2 flex justify-center">
+      <h2 className="text-3xl font-bold mb-4 text-center my-2 flex justify-center myHeading">
         Contact Me
         <picture className="mx-2">
           <source

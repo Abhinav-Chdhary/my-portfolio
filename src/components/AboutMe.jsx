@@ -6,7 +6,7 @@ export default function AboutMe() {
     <div className="bg-blue-950">
       <div className="p-8 flex flex-col md:flex-row justify-around container mx-auto">
         <div className="flex-1 justify-center">
-          <h2 className="text-3xl font-bold mb-4 text-center my-2 flex justify-start text-white">
+          <h2 className="text-3xl font-bold mb-4 text-center my-2 flex justify-start text-white myHeading">
             Hi there
             <picture className="mx-2">
               <source
