@@ -92,7 +92,7 @@ export default function ContactMe() {
   };
 
   return (
-    <div className="my-10">
+    <div className="py-10 bg-blue-950 text-white">
       <ToastContainer />
       <h2 className="text-3xl font-bold mb-4 text-center my-2 flex justify-center myHeading">
         Contact Me
@@ -115,10 +115,7 @@ export default function ContactMe() {
         className="max-w-md mx-5 md:mx-auto"
       >
         <div className="mb-4">
-          <label
-            className="block text-gray-800 font-bold mb-2"
-            htmlFor="user_name"
-          >
+          <label className="block font-bold mb-2" htmlFor="user_name">
             Name
           </label>
           <input
@@ -139,10 +136,7 @@ export default function ContactMe() {
           )}
         </div>
         <div className="mb-4">
-          <label
-            className="block text-gray-800 font-bold mb-2"
-            htmlFor="user_email"
-          >
+          <label className="block font-bold mb-2" htmlFor="user_email">
             Email
           </label>
           <input
@@ -163,10 +157,7 @@ export default function ContactMe() {
           )}
         </div>
         <div className="mb-4">
-          <label
-            className="block text-gray-800 font-bold mb-2"
-            htmlFor="message"
-          >
+          <label className="block font-bold mb-2" htmlFor="message">
             Message
           </label>
           <textarea
@@ -185,7 +176,7 @@ export default function ContactMe() {
         </div>
         <div className="flex items-center justify-center">
           <button
-            className="bg-blue-950 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full"
+            className="bg-white hover:bg-blue-800 active:bg-blue-800 text-gray-400 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full"
             type="submit"
           >
             Send
