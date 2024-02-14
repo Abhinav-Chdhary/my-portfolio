@@ -92,92 +92,92 @@ export default function ContactMe() {
   };
 
   return (
-    <div className="py-10 bg-blue-950 text-white">
+    <div className='py-10 bg-blue-950 text-white'>
       <ToastContainer />
-      <h2 className="text-3xl font-bold mb-4 text-center my-2 flex justify-center myHeading">
+      <h2 className='text-3xl font-bold mb-4 text-center my-2 flex justify-center myHeading'>
         Contact Me
-        <picture className="mx-2">
+        <picture className='mx-2'>
           <source
-            srcSet="https://fonts.gstatic.com/s/e/notoemoji/latest/1f60e/512.webp"
-            type="image/webp"
+            srcSet='https://fonts.gstatic.com/s/e/notoemoji/latest/1f60e/512.webp'
+            type='image/webp'
           />
           <img
-            src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f60e/512.gif"
-            alt="😎"
-            width="32"
-            height="32"
+            src='https://fonts.gstatic.com/s/e/notoemoji/latest/1f60e/512.gif'
+            alt='😎'
+            width='32'
+            height='32'
           />
         </picture>
       </h2>
       <form
         ref={form}
         onSubmit={sendEmail}
-        className="max-w-md mx-5 md:mx-auto"
+        className='max-w-md mx-10 sm:mx-auto'
       >
-        <div className="mb-4">
-          <label className="block font-bold mb-2" htmlFor="user_name">
+        <div className='mb-4'>
+          <label className='block font-bold mb-2' htmlFor='user_name'>
             Name
           </label>
           <input
             className={`shadow appearance-none border rounded w-full py-2 px-3 text-gray-800 leading-tight focus:outline-none focus:shadow-outline ${
               formErrors.user_name && "border-red-500"
             }`}
-            id="user_name"
-            type="text"
-            name="user_name"
-            placeholder="Enter your name"
+            id='user_name'
+            type='text'
+            name='user_name'
+            placeholder='Enter your name'
             value={formData.user_name}
             onChange={handleInputChange}
           />
           {formErrors.user_name && (
-            <p className="text-red-500 text-xs italic">
+            <p className='text-red-500 text-xs italic'>
               {formErrors.user_name}
             </p>
           )}
         </div>
-        <div className="mb-4">
-          <label className="block font-bold mb-2" htmlFor="user_email">
+        <div className='mb-4'>
+          <label className='block font-bold mb-2' htmlFor='user_email'>
             Email
           </label>
           <input
             className={`shadow appearance-none border rounded w-full py-2 px-3 text-gray-800 leading-tight focus:outline-none focus:shadow-outline ${
               formErrors.user_email && "border-red-500"
             }`}
-            id="user_email"
-            type="email"
-            name="user_email"
-            placeholder="Enter your email"
+            id='user_email'
+            type='email'
+            name='user_email'
+            placeholder='Enter your email'
             value={formData.user_email}
             onChange={handleInputChange}
           />
           {formErrors.user_email && (
-            <p className="text-red-500 text-xs italic">
+            <p className='text-red-500 text-xs italic'>
               {formErrors.user_email}
             </p>
           )}
         </div>
-        <div className="mb-4">
-          <label className="block font-bold mb-2" htmlFor="message">
+        <div className='mb-4'>
+          <label className='block font-bold mb-2' htmlFor='message'>
             Message
           </label>
           <textarea
             className={`shadow appearance-none border rounded w-full py-2 px-3 text-gray-800 leading-tight focus:outline-none focus:shadow-outline ${
               formErrors.message && "border-red-500"
             }`}
-            id="message"
-            name="message"
-            placeholder="Enter your message"
+            id='message'
+            name='message'
+            placeholder='Enter your message'
             value={formData.message}
             onChange={handleInputChange}
           ></textarea>
           {formErrors.message && (
-            <p className="text-red-500 text-xs italic">{formErrors.message}</p>
+            <p className='text-red-500 text-xs italic'>{formErrors.message}</p>
           )}
         </div>
-        <div className="flex items-center justify-center">
+        <div className='flex items-center justify-center'>
           <button
-            className="bg-white hover:bg-blue-800 active:bg-blue-800 text-gray-400 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full"
-            type="submit"
+            className='bg-white hover:bg-blue-800 active:bg-blue-800 text-gray-400 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full'
+            type='submit'
           >
             Send
           </button>
